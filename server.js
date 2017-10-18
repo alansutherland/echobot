@@ -1,5 +1,7 @@
 var restify = require('restify');
 var builder = require('botbuilder');
+var BOTFRAMEWORK_APPID = '116a968f-8e95-4254-9ef1-236c84767d8a';
+var BOTFRAMEWORK_APPSECRET = 'D5je6ymSyHoTecqR1xaF3po';
 
 // Get secrets from server environment
 var botConnectorOptions = { 
